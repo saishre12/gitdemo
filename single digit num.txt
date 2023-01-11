@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+    long int num;
+    int sum,r;
+    printf("Enter the num value:\n");
+    scanf("%ld",&num);
+    
+    
+    while(num>9)
+    {
+        sum=0;
+        while(num>0)
+        {
+            r=num%10;
+            sum=sum+r;
+            num=num/10;
+        }
+        num=sum;
+    }
+   printf("Sum of given digit is:%d",sum); 
+}

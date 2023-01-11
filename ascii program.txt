@@ -1,0 +1,12 @@
+#include<stdio.h>
+//#include<conio.h>
+main()
+{
+char ascii;
+int i;
+for(i=0;i<=255;i++)
+{
+printf("Ascii values with their original number is:\n");
+printf("%c=%d\n",i,i);
+}
+}
